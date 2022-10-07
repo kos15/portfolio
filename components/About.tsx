@@ -28,18 +28,18 @@ export default function About({}: Props) {
 
       <div className="space-y-10 px-0 md:px-10">
         <h4 className="text-4xl font-semi-bold">
-          Here's a{" "}
+          Here&apos;s a{" "}
           <span className="underline decoration-[#F7AB0A]">little</span>{" "}
           background
         </h4>
         <p className="text-base">
-          I'am Koustubh. 💯 You might also know me as KOS! here's a little bit
+          I&apos;am Koustubh. 💯 You might also know me as KOS! here&apos;s a little bit
           about me... I have been coding for over 2 years now. I have a corprate
           Experience of working as a Frontend DEV. During this period I have
           work across many framework ,such as Angular, React, Next. Apart from
           this I have also done{" "}
-          <span className="underline decoration-[#F7AB0A]">POC's</span>{" "}on Micro-Frontend.
-          I'm also familar with the Backend Frameworks like SpringBoot, NodeJS.
+          <span className="underline decoration-[#F7AB0A]">POC&apos;s</span>{" "}on Micro-Frontend.
+          I&apos;m also familar with the Backend Frameworks like SpringBoot, NodeJS.
           Apart from this I love to travel ,explore myself ...make new friends
         </p>
       </div>
