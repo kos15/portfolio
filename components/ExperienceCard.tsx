@@ -25,6 +25,7 @@ descSkillsTag.forEach(element => {
         }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 1.2 }}
+        viewport={{once: true}}
         src={imgSrc}
         alt=""
         className="h-32 w-32 rounded-full object-fill object-center xl:h-[200px] xl:w-[200px]"
