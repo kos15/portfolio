@@ -17,9 +17,9 @@ export default function Projects({}: Props) {
       </h3>
 
       <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20">
-        {projects.map((_project: any, index: number) => {
+        {projects.map((project: any, index: number) => {
           return (
-            <div className="w-full flex-shrink-0 snap-center flex flex-col items-center justify-center space-y-5 p-20 md:p-44 h-screen">
+            <div key={`${project}+${index}`} className="w-full flex-shrink-0 snap-center flex flex-col items-center justify-center space-y-5 p-20 md:p-44 h-screen">
               <motion.img
               initial={{ opacity: 0, y: -200 }}
               whileInView={{ opacity: 1, y:0 }}
