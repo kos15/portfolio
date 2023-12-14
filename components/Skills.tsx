@@ -32,7 +32,7 @@ export default function Skills({}: Props) {
       </h3>
 
       <h3 className="absolute top-36 tracking-[3px] uppercase text-gray-500 text-sm">
-        Hover over a skill for cuurent proficiency
+        Hover over a skill for current proficiency
       </h3>
 
       <div className="grid grid-cols-4 gap-5">
